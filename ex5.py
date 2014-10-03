@@ -8,8 +8,8 @@ teeth = 'White'
 hair = 'Brown'
 
 print "Let's talk about %s." % name
-print "He's %d inches tall." % height
-print "He's %d pounds heavy." % weight
+print "He's %d inches (%.02f centimeters) tall." % (height, height*2.54)
+print "He's %d pounds (%.02f kg) heavy." % (weight, weight * 0.45359237)
 print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
 print "His teeth are usually %s depending on the coffee." % teeth
