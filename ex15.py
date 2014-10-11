@@ -14,3 +14,7 @@ file_again = raw_input('> ')
 txt_again = open(filename)
 
 print txt_again.read()
+
+# close files
+txt.close()
+txt_again.close()
