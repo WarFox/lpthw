@@ -1,5 +1,5 @@
 # Exercise 33: While Loops
-def print_numbers(n):
+def print_numbers(n, step):
     i = 0
     numbers = []
 
@@ -7,7 +7,7 @@ def print_numbers(n):
         print "At the top i is %d" % i
         numbers.append(i)
 
-        i = i + 1
+        i = i + step
         print "Numbers now:", numbers
         print "At the bottom i is %d", i
 
@@ -16,5 +16,5 @@ def print_numbers(n):
     for num in numbers:
         print num
 
-print_numbers(6)
-print_numbers(2)
+print_numbers(6, 2)
+print_numbers(2, 1)
