@@ -3,11 +3,10 @@ def print_numbers(n, step):
     i = 0
     numbers = []
 
-    while i < n:
+    for i in range (0, n, step):
         print "At the top i is %d" % i
         numbers.append(i)
 
-        i = i + step
         print "Numbers now:", numbers
         print "At the bottom i is %d", i
 
